@@ -1,0 +1,5 @@
+#!/bin/bash
+cd cnla/ 
+./compile
+cd .. 
+python3 wrapper.py
