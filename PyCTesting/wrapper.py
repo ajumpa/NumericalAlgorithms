@@ -18,7 +18,6 @@ class CNLA():
         shape = A.shape[0] * A.shape[0]
         self.lib.QR(A, *A.shape)
 
-
 a = np.eye(10)
 
 cnla = CNLA()
