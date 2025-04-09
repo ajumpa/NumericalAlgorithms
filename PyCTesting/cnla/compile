@@ -1,3 +1,0 @@
-#!/bin/bash
-
-g++ -shared -Wl,-soname,lib_cnla -o lib_cnla.so -fPIC lib_cnla.cpp
